@@ -1,0 +1,42 @@
+.nav-bar{
+  display: flex;
+  background-color: #baff24;
+  border: 2px solid black;
+  border-radius: 7px;
+  /* margin: 10px 10px; */
+  
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap row ;
+  width: 50%;
+}
+
+.container div{
+  margin: 10px;
+  padding: 0px 20px;
+}
+
+a{
+  text-decoration: none;
+  color: brown;
+}
+
+.right-nav-bar{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-flow: wrap row ;
+  width: 50%;
+  padding-right: 30px;
+}
+
+input{
+  border: 1px solid #d01e39;
+  border-radius: 7px;
+  padding: 4px 4px;
+  width: 150px;
+}
