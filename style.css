@@ -40,3 +40,23 @@ input{
   padding: 4px 4px;
   width: 150px;
 }
+
+#container-box{
+  background-color: #1f2120d2;
+  border: 2px solid rgb(14, 255, 199);
+  height: 5550px;
+
+}
+.box{
+  display: inline-block;
+  background-color: #f01233d2;
+  border: 5px solid rgb(82, 13, 221);
+  height: 125px;
+  width: 100px;
+  margin: 5px;
+
+}
+#box3{
+  position: sticky;
+  top: 5px;
+}
