@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 .nav-bar{
   display: flex;
   background-color: #baff24;
@@ -48,8 +51,9 @@ input{
 
 }
 .box{
-  display: inline-block;
+ display: inline-block;
   background-color: #f01233d2;
+  padding: 20px;
   border: 5px solid rgb(82, 13, 221);
   height: 125px;
   width: 100px;
